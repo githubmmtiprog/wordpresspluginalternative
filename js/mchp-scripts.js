@@ -1,17 +1,12 @@
 jQuery(document).ready(function($) {
     $('.mchp-carousel.owl-carousel').owlCarousel({
-        items: 3,
+        items: 1, // Show 1 item at a time
         loop: true,
-        margin: 10,
+        margin: 0, // No margin
         nav: true,
         dots: true,
         autoplay: true,
-        autoplayTimeout: 3000,
-        autoplayHoverPause: true,
-        responsive: {
-            0: {items: 1},
-            600: {items: 2},
-            1000: {items: 3}
-        }
+        autoplayTimeout: 5000,
+        autoplayHoverPause: true
     });
 });
