@@ -36,7 +36,6 @@ function my_builder_enqueue_admin_popup_assets($hook) {
 }
 add_action('admin_enqueue_scripts', 'my_builder_enqueue_admin_popup_assets');
 
-// Enqueue Frontend CSS
 function my_builder_enqueue_frontend_assets() {
     wp_enqueue_style('my-builder-popups-css', plugins_url('assets/css/popups.css', __FILE__));
 }
