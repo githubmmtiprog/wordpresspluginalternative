@@ -1,3 +1,39 @@
+
+#my-builder-editor-root {
+    display: flex;
+    height: 80vh;
+    border: 1px solid #ccc;
+}
+.my-builder-sidebar {
+    width: 250px;
+    background: #f5f5f5;
+    padding: 10px;
+    overflow-y: auto;
+}
+.my-builder-canvas {
+    flex: 1;
+    background: #fff;
+    border-left: 1px solid #ccc;
+    position: relative;
+    padding: 20px;
+}
+.my-builder-widget {
+    padding: 8px;
+    background: #ddd;
+    margin-bottom: 5px;
+    cursor: grab;
+}
+.my-builder-editable {
+    border: 1px dashed #999;
+    padding: 5px;
+    display: inline-block;
+    min-width: 100px;
+}
+.my-builder-editable:focus {
+    outline: none;
+    border-color: #007cba;
+}
+
 .my-builder-section { border: 2px dashed #007cba; margin-bottom: 20px; padding: 10px; }
 .my-builder-row { display: flex; margin-bottom: 10px; }
 .my-builder-column { flex: 1; border: 1px dashed #999; padding: 10px; min-height: 50px; margin-right: 10px; }

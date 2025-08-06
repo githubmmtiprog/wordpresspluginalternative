@@ -43,7 +43,7 @@ jQuery(document).ready(function($) {
         });
     });
 
-    // Save Layout Button
+
     if ($('#save-layout').length === 0) {
         $('.wrap').prepend('<button id="save-layout" class="button button-primary">Save Layout</button>');
     }
