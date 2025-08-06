@@ -1,0 +1,6 @@
+.my-builder-section { border: 2px dashed #007cba; margin-bottom: 20px; padding: 10px; }
+.my-builder-row { display: flex; margin-bottom: 10px; }
+.my-builder-column { flex: 1; border: 1px dashed #999; padding: 10px; min-height: 50px; margin-right: 10px; }
+.my-builder-column:last-child { margin-right: 0; }
+.my-builder-editable { border: 1px dashed #999; padding: 5px; display: inline-block; min-width: 100px; }
+.my-builder-editable:focus { outline: none; border-color: #007cba; }
