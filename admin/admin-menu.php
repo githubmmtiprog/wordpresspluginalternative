@@ -33,8 +33,7 @@ function my_builder_editor_page() {
     ?>
     <div class="wrap">
         <h1>My Builder Editor</h1>
-        <div id="my-builder-editor"></div>
-        <button id="save-layout" class="button button-primary">Save Layout</button>
+        <div id="my-builder-editor-root"></div>
     </div>
     <?php
 }

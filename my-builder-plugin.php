@@ -20,6 +20,7 @@ require_once plugin_dir_path(__FILE__) . 'includes/widget-loader.php';
 function my_builder_enqueue_assets($hook) {
     if (strpos($hook, 'my-builder') !== false) {
         wp_enqueue_style('my-builder-style', plugins_url('assets/css/editor.css', __FILE__));
+        wp_enqueue_style('my-builder-modern-style', plugins_url('assets/css/editor-modern.css', __FILE__), array('my-builder-style'), '1.0');
         wp_enqueue_script('my-builder-script', plugins_url('assets/js/editor.js', __FILE__), array('jquery'), null, true);
         wp_localize_script('my-builder-script', 'ajaxurl', admin_url('admin-ajax.php'));
     }
