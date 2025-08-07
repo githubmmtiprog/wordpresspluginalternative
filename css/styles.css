@@ -1,0 +1,22 @@
+
+@keyframes riseUp {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.carousel-caption .animated-rise-up {
+  animation: riseUp 1s ease-out forwards;
+}
+.carousel-item {
+  height: 100vh;
+}
+.carousel-item img {
+  object-fit: cover;
+  height: 100%;
+}
